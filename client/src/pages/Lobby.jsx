@@ -44,7 +44,7 @@ return (
                 <input type="email" id="email" value={email} onChange={e => setEmail(e.target.value)} />
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                <label htmlFor="room">Room ID : </label>
+                <label htmlFor="room">Room in ID : </label>
                 <input type="text" id="room" value={room} onChange={e => setRoom(e.target.value)}/>
             </div>
             <button
