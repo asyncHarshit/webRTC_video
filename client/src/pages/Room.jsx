@@ -124,6 +124,7 @@ const Room = () => {
             }
           }}
           autoPlay
+          muted
           height="300"
           width="300"
         />
